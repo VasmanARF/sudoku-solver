@@ -1,0 +1,29 @@
+# Sudoku Solver
+
+This is a Python project that solves Sudoku puzzles using a backtracking algorithm along with 3 heuristics (Naked Singles, Hidden Singles, Minimum Remaining Vales Heuristic). The program can take in any valid 9x9 Sudoku puzzle and provide the correct solution.
+
+## characteristics
+- Solves any 9x9 Sudoku puzzle.
+- Sudokus must be in the format of a 9x9 Numpy Array
+- Simple and clean algorithm implementation.
+- Blank Spaces in Sudokus provided must be represented by a zero
+- If a provided Sudoku has no solution or is invalid a 9x9 numpy array of "-1"'s will be returned 
+
+
+## Installation
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/VasmanARF/sudoku-solver.git
+    cd sudoku-solver
+    ```
+
+2. Install dependencies :
+    ```bash
+    pip install numpy
+    ```
+
+## Usage
+Alter the "sudoku" variable in "sudoku_solver_start.py" file with a hard coded sudoku or another .npy file
+To run the Sudoku solver, use the following command:
+```bash
+python sudoku_solver_start.py
